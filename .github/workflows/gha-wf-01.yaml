@@ -52,7 +52,7 @@ jobs:
       - name: Setup dotnet on runner
         uses: actions/setup-dotnet@v1
         with:
-          dotnet-version: '5.x'
+          dotnet-version: '8.x'
 
       # This specific command uses the installed in the previous step software to document the version of dot.net
       - name: Display dotnet version
